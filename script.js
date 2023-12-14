@@ -21,9 +21,9 @@ const fetchPokemon = async () => {
 const listPokemon = async () => {
   const data = await fetchPokemon(); // Chama a função fetchPokemon para obter os dados
   const pokemonList = data.map(itens => ({
-    idpokemon: itens.idpokemon,
+    idpokemon: itens.idPokemon,
     name: itens.name,
-    imageurl: itens.imageurl
+    imageurl: itens.imageUrl
   }));
   return pokemonList;
 };
