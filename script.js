@@ -6,7 +6,7 @@ const btnPrev = document.querySelector('.btn-prev')
 const hostUrl = window.location.href
 // const host = hostUrl.split("//")[1]
 const ip = 'develop.10.49.7.76.nip.io'
-const urlApi = `http://` + ip + ":3000/list"
+const urlApi = `http://` + ip + "/list"
 
 //faz a busca no back
 const fetchPokemon = async () => {
