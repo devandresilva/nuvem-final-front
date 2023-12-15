@@ -5,7 +5,7 @@ const btnNext = document.querySelector('.btn-next')
 const btnPrev = document.querySelector('.btn-prev')
 const hostUrl = window.location.href
 // const host = hostUrl.split("//")[1]
-const ip = 'homolog.192.168.1.11.nip.io'
+const ip = 'homolog.10.49.7.76.nip.io'
 const urlApi = `http://` + ip + ":3000/list"
 
 //faz a busca no back
