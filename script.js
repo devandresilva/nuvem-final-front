@@ -4,8 +4,8 @@ const pokemonImage = document.querySelector('.pokemon-image')
 const btnNext = document.querySelector('.btn-next')
 const btnPrev = document.querySelector('.btn-prev')
 const hostUrl = window.location.href
-const host = hostUrl.split("//")[1]
-const ip = host.split(":")[0]
+// const host = hostUrl.split("//")[1]
+const ip = 'develop.10.49.7.76.nip.io'
 const urlApi = `http://` + ip + ":3000/list"
 
 //faz a busca no back
