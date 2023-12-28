@@ -3,9 +3,8 @@ const pokemonId = document.querySelector('.pokemon-number')
 const pokemonImage = document.querySelector('.pokemon-image')
 const btnNext = document.querySelector('.btn-next')
 const btnPrev = document.querySelector('.btn-prev')
-const hostUrl = window.location.href
-const ip = process.env.IP
-const urlApi = `http://develop.${ip}.nip.io/list`
+const ip = 'develop.10.49.7.76.nip.io'
+const urlApi = `http://` + ip + "/list"
 
 console.log(urlApi)
 
