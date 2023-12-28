@@ -4,7 +4,6 @@ const pokemonImage = document.querySelector('.pokemon-image')
 const btnNext = document.querySelector('.btn-next')
 const btnPrev = document.querySelector('.btn-prev')
 const hostUrl = window.location.href
-// const host = hostUrl.split("//")[1]
 const ip = 'prod.10.49.7.76.nip.io'
 const urlApi = `http://` + ip + "/list"
 
